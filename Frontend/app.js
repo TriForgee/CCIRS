@@ -26,7 +26,7 @@
 
     /* ---------- Validators ---------- */
     var Patterns = {
-        email: /^[^\s@]+@[^\s@]+\.[^\s@]+$/,
+        email: /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/,
         studentId: /^[A-Za-z0-9-]{3,20}$/
     };
 
@@ -253,9 +253,14 @@
                 {
                     email: [
                         Check.required("Email"),
-                        Check.pattern(Patterns.email, "Enter a valid email address, like name@example.com.")
+                        Check.pattern(Patterns.email, "Enter a valid email address, like name@example.com."),
+                        Check.maxLength("Email", 254)
                     ],
-                    password: [Check.required("Password")]
+                    password: [
+                        Check.required("Password"),
+                        Check.minLength("Password", 8),
+                        Check.maxLength("Password", 15)
+                    ]
                 },
                 "Logging in...",
                 "Form is valid. " + (role === "admin" ? "Admin" : "Student") +
@@ -270,7 +275,7 @@
             var registerRules = {
                 name: [
                     Check.required("Full name"),
-                    Check.minLength("Full name", 2),
+                    Check.minLength("Full name", 3),
                     Check.maxLength("Full name", 60)
                 ],
                 "student-id": [
@@ -280,12 +285,18 @@
                 ],
                 email: [
                     Check.required("Email"),
-                    Check.pattern(Patterns.email, "Enter a valid email address, like name@example.com.")
+                    Check.pattern(Patterns.email, "Enter a valid email address, like name@example.com."),
+                    Check.maxLength("Email", 254)
                 ],
-                password: [Check.required("Password"), Check.strongPassword],
+                password: [
+                    Check.required("Password"),
+                    Check.strongPassword,
+                    Check.maxLength("Password", 15)
+                ],
                 "confirm-password": [
                     Check.required("Password confirmation"),
-                    Check.matches("password", "Passwords do not match.")
+                    Check.matches("password", "Passwords do not match."),
+                    Check.maxLength("Password confirmation", 15)
                 ]
             };
             // Re-check the confirmation when the first password field changes.
