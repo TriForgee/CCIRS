@@ -67,24 +67,28 @@
         <form id="register-form" novalidate>
           <div class="field">
             <label for="name">Full name</label>
-            <input id="name" name="name" type="text" autocomplete="name" required aria-describedby="name-error">
+            <input id="name" name="name" type="text" autocomplete="name" required
+              minlength="3" maxlength="60" aria-describedby="name-error">
             <p class="field-error" id="name-error" hidden></p>
           </div>
           <div class="field">
             <label for="student-id">Student ID</label>
-            <input id="student-id" name="student-id" type="text" autocomplete="off" required aria-describedby="student-id-hint student-id-error">
+            <input id="student-id" name="student-id" type="text" autocomplete="off" required
+              minlength="3" maxlength="20" aria-describedby="student-id-hint student-id-error">
             <p class="field-hint" id="student-id-hint">Letters, numbers and dashes only.</p>
             <p class="field-error" id="student-id-error" hidden></p>
           </div>
           <div class="field">
             <label for="email">Email</label>
-            <input id="email" name="email" type="email" autocomplete="email" required aria-describedby="email-error">
+            <input id="email" name="email" type="email" autocomplete="email" required
+              maxlength="254" aria-describedby="email-error">
             <p class="field-error" id="email-error" hidden></p>
           </div>
           <div class="field">
             <label for="password">Password</label>
             <div class="input-row">
-              <input id="password" name="password" type="password" autocomplete="new-password" required aria-describedby="password-hint password-error">
+              <input id="password" name="password" type="password" autocomplete="new-password" required
+                minlength="8" maxlength="15" aria-describedby="password-hint password-error">
               <button class="btn btn-secondary btn-toggle" type="button"
                 data-toggle-password="password" aria-controls="password">Show</button>
             </div>
@@ -94,7 +98,8 @@
           <div class="field">
             <label for="confirm-password">Confirm password</label>
             <div class="input-row">
-              <input id="confirm-password" name="confirm-password" type="password" autocomplete="new-password" required aria-describedby="confirm-password-error">
+              <input id="confirm-password" name="confirm-password" type="password" autocomplete="new-password" required
+                minlength="8" maxlength="15" aria-describedby="confirm-password-error">
               <button class="btn btn-secondary btn-toggle" type="button"
                 data-toggle-password="confirm-password" aria-controls="confirm-password">Show</button>
             </div>
