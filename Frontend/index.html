@@ -5,54 +5,309 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>TriForge | CCIRS</title>
+    <!-- Primary meta -->
+    <title>CCIRS | Campus Complaint &amp; Issue Reporting System</title>
+    <meta name="description"
+        content="CCIRS by Team TriForge — report, manage and track campus complaints through a transparent, real-time status system.">
+    <meta name="author" content="Team TriForge">
+    <meta name="keywords"
+        content="CCIRS, campus complaint system, issue reporting, TriForge, complaint tracking, university management">
+    <meta name="robots" content="index, follow">
+    <meta name="color-scheme" content="light dark">
 
-    <link rel="stylesheet" href="css/style.css">
+    <!-- Theme color (light / dark) -->
+    <meta name="theme-color" content="#174b3a" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#0e1613" media="(prefers-color-scheme: dark)">
+
+    <!-- Canonical (replace with your production domain) -->
+    <link rel="canonical" href="https://ccirs.triforge.app/">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="CCIRS">
+    <meta property="og:title" content="CCIRS | Campus Complaint &amp; Issue Reporting System">
+    <meta property="og:description"
+        content="Report, manage and track campus complaints through a transparent, real-time status system.">
+    <meta property="og:url" content="https://ccirs.triforge.app/">
+    <meta property="og:locale" content="en_US">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="CCIRS | Campus Complaint &amp; Issue Reporting System">
+    <meta name="twitter:description"
+        content="Report, manage and track campus complaints through a transparent, real-time status system.">
+
+    <!-- Inline SVG favicon (no extra file, no 404) -->
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%231f4d3a'/%3E%3Ctext x='16' y='22' font-family='Arial,sans-serif' font-size='17' font-weight='700' text-anchor='middle' fill='%23ffffff'%3EC%3C/text%3E%3C/svg%3E">
+    <link rel="apple-touch-icon"
+        href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23174b3a'/%3E%3Ctext x='16' y='22' font-family='Arial,sans-serif' font-size='18' font-weight='700' text-anchor='middle' fill='%23e9a23b'%3ET%3C/text%3E%3C/svg%3E">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Scripts -->
+    <script src="script.js" defer></script>
+
+    <!-- Structured data (replace domain/URLs with production values) -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@graph": [
+            {
+                "@type": "Organization",
+                "@id": "https://ccirs.triforge.app/#organization",
+                "name": "Team TriForge",
+                "url": "https://ccirs.triforge.app/"
+            },
+            {
+                "@type": "WebSite",
+                "@id": "https://ccirs.triforge.app/#website",
+                "url": "https://ccirs.triforge.app/",
+                "name": "CCIRS",
+                "description": "Campus Complaint & Issue Reporting System",
+                "publisher": { "@id": "https://ccirs.triforge.app/#organization" }
+            }
+        ]
+    }
+    </script>
 </head>
 
 <body>
 
-    <header class="site-header">
-        <nav class="navbar">
-            <a href="index.html" class="logo">TriForge</a>
+    <a href="#main" class="skip-link">Skip to main content</a>
 
-            <div class="nav-links">
-                <a href="#home">Home</a>
-                <a href="#about">About</a>
-                <a href="#">Login</a>
-                <a href="#">Register</a>
+    <!-- ================= HEADER ================= -->
+    <header class="site-header">
+        <nav class="navbar container" aria-label="Main navigation">
+            <a href="index.html" class="logo" aria-label="TriForge CCIRS home">
+                <span class="logo-mark" aria-hidden="true">C</span>
+                <span class="logo-text">CC<span>IRS</span></span>
+            </a>
+
+            <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-menu"
+                aria-label="Toggle navigation menu">
+                <span class="nav-toggle-bar"></span>
+                <span class="nav-toggle-bar"></span>
+                <span class="nav-toggle-bar"></span>
+            </button>
+
+            <div class="nav-menu" id="nav-menu">
+                <ul class="nav-links">
+                    <li><a href="#home" aria-current="page">Home</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#how-it-works">How It Works</a></li>
+                    <li><a href="#about">About</a></li>
+                </ul>
+
+                <div class="nav-actions">
+                    <a href="login.html" class="btn btn-ghost">Login</a>
+                    <a href="register.html" class="btn btn-primary">Register</a>
+                </div>
             </div>
         </nav>
     </header>
 
-    <main>
-        <section class="hero" id="home">
-            <h1>Campus Complaint & Issue Reporting System</h1>
+    <main id="main">
 
-            <p>
-                A simple and reliable platform to report,
-                manage, and track campus issues.
-            </p>
+        <!-- ================= HERO ================= -->
+        <section class="hero" id="home" aria-labelledby="hero-title">
+            <div class="container hero-inner">
+                <div class="hero-content">
+                    <span class="badge">Campus Issue Management</span>
 
-            <div class="hero-actions">
-                <a href="#" class="btn btn-primary">Login</a>
-                <a href="#" class="btn btn-secondary">Register</a>
+                    <h1 id="hero-title">
+                        Campus Complaint &amp; Issue
+                        <span class="text-accent">Reporting System</span>
+                    </h1>
+
+                    <p class="hero-lead">
+                        A simple and reliable platform to report, manage, and track
+                        campus issues — from broken equipment to hostel concerns —
+                        with full transparency at every step.
+                    </p>
+
+                    <div class="hero-actions">
+                        <a href="register.html" class="btn btn-primary btn-lg">Get Started</a>
+                        <a href="login.html" class="btn btn-secondary btn-lg">Login to Account</a>
+                    </div>
+
+                    <ul class="hero-stats" aria-label="Platform highlights">
+                        <li><strong>24/7</strong><span>Complaint submission</span></li>
+                        <li><strong>Real-time</strong><span>Status tracking</span></li>
+                        <li><strong>100%</strong><span>Transparent process</span></li>
+                    </ul>
+                </div>
+
+                <!-- Decorative status preview card -->
+                <div class="hero-visual" aria-hidden="true">
+                    <div class="preview-card">
+                        <div class="preview-header">
+                            <span class="dot dot-red"></span>
+                            <span class="dot dot-yellow"></span>
+                            <span class="dot dot-green"></span>
+                        </div>
+
+                        <div class="preview-item">
+                            <div>
+                                <p class="preview-title">Projector not working</p>
+                                <p class="preview-meta">Room CS-204 · Academic</p>
+                            </div>
+                            <span class="status status-resolved">Resolved</span>
+                        </div>
+
+                        <div class="preview-item">
+                            <div>
+                                <p class="preview-title">Water leakage in hostel</p>
+                                <p class="preview-meta">Block B · Hostel</p>
+                            </div>
+                            <span class="status status-progress">In Progress</span>
+                        </div>
+
+                        <div class="preview-item">
+                            <div>
+                                <p class="preview-title">Wi-Fi down in library</p>
+                                <p class="preview-meta">Main Library · IT</p>
+                            </div>
+                            <span class="status status-pending">Pending</span>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
 
-        <section class="about" id="about">
-            <h2>About CCIRS</h2>
+        <!-- ================= FEATURES ================= -->
+        <section class="section" id="features" aria-labelledby="features-title">
+            <div class="container">
+                <header class="section-header">
+                    <span class="eyebrow">Features</span>
+                    <h2 id="features-title">Everything you need to resolve issues faster</h2>
+                    <p>Built for students, staff and administrators to work together on a better campus.</p>
+                </header>
 
-            <p>
-                CCIRS helps students report campus complaints
-                and follow their progress through a transparent
-                status system.
-            </p>
+                <div class="card-grid">
+                    <article class="card">
+                        <div class="card-icon" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M12 20h9" />
+                                <path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4Z" />
+                            </svg>
+                        </div>
+                        <h3>Easy Reporting</h3>
+                        <p>Submit complaints in seconds with category, location and description.</p>
+                    </article>
+
+                    <article class="card">
+                        <div class="card-icon" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="10" />
+                                <path d="M12 6v6l4 2" />
+                            </svg>
+                        </div>
+                        <h3>Live Tracking</h3>
+                        <p>Follow every complaint from Pending to In Progress to Resolved.</p>
+                    </article>
+
+                    <article class="card">
+                        <div class="card-icon" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10Z" />
+                            </svg>
+                        </div>
+                        <h3>Secure Accounts</h3>
+                        <p>Role-based access keeps student data private and actions accountable.</p>
+                    </article>
+
+                    <article class="card">
+                        <div class="card-icon" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M3 3v18h18" />
+                                <path d="m7 15 4-4 3 3 5-6" />
+                            </svg>
+                        </div>
+                        <h3>Admin Insights</h3>
+                        <p>Administrators see trends and prioritise the issues that matter most.</p>
+                    </article>
+                </div>
+            </div>
         </section>
+
+        <!-- ================= HOW IT WORKS ================= -->
+        <section class="section section-alt" id="how-it-works" aria-labelledby="steps-title">
+            <div class="container">
+                <header class="section-header">
+                    <span class="eyebrow">How It Works</span>
+                    <h2 id="steps-title">Three simple steps</h2>
+                </header>
+
+                <ol class="steps">
+                    <li class="step">
+                        <span class="step-number" aria-hidden="true">1</span>
+                        <h3>Register &amp; Login</h3>
+                        <p>Create your account using your university credentials.</p>
+                    </li>
+                    <li class="step">
+                        <span class="step-number" aria-hidden="true">2</span>
+                        <h3>Submit a Complaint</h3>
+                        <p>Describe the issue, choose a category and add the location.</p>
+                    </li>
+                    <li class="step">
+                        <span class="step-number" aria-hidden="true">3</span>
+                        <h3>Track Progress</h3>
+                        <p>Get status updates until your issue is fully resolved.</p>
+                    </li>
+                </ol>
+            </div>
+        </section>
+
+        <!-- ================= ABOUT ================= -->
+        <section class="section" id="about" aria-labelledby="about-title">
+            <div class="container about-inner">
+                <div>
+                    <span class="eyebrow">About CCIRS</span>
+                    <h2 id="about-title">Making campus voices heard</h2>
+                    <p>
+                        CCIRS helps students report campus complaints and follow their
+                        progress through a transparent status system. Every complaint is
+                        recorded, assigned and tracked — so nothing gets lost.
+                    </p>
+                </div>
+
+                <ul class="check-list">
+                    <li>Centralised record of all campus issues</li>
+                    <li>Clear accountability for every department</li>
+                    <li>Faster response and resolution times</li>
+                    <li>Accessible on desktop, tablet and mobile</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- ================= CTA ================= -->
+        <section class="cta" aria-labelledby="cta-title">
+            <div class="container cta-inner">
+                <h2 id="cta-title">Have an issue on campus?</h2>
+                <p>Report it now and track it until it's resolved.</p>
+                <a href="register.html" class="btn btn-accent btn-lg">Create Free Account</a>
+            </div>
+        </section>
+
     </main>
 
+    <!-- ================= FOOTER ================= -->
     <footer class="site-footer">
-        <p>Team TriForge | CCIRS</p>
+        <div class="footer-bottom">
+            <p>&copy; <span id="year">2026</span> Team TriForge | CCIRS. All rights reserved.</p>
+        </div>
     </footer>
 
 </body>

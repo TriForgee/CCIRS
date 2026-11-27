@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Complaints | CCIRS</title>
+    <meta name="description" content="View and track the status of your submitted campus complaints in CCIRS.">
+    <meta name="author" content="Team TriForge">
+    <meta name="color-scheme" content="light dark">
+    <meta name="theme-color" content="#174b3a" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#0e1613" media="(prefers-color-scheme: dark)">
+
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%231f4d3a'/%3E%3Ctext x='16' y='22' font-family='Arial,sans-serif' font-size='17' font-weight='700' text-anchor='middle' fill='%23ffffff'%3EC%3C/text%3E%3C/svg%3E">
+    <link rel="apple-touch-icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23174b3a'/%3E%3Ctext x='16' y='22' font-family='Arial,sans-serif' font-size='18' font-weight='700' text-anchor='middle' fill='%23e9a23b'%3ET%3C/text%3E%3C/svg%3E">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="script.js" defer></script>
+    <script src="app.js" defer></script>
+  </head>
+
+<body>
+  <a href="#main" class="skip-link">Skip to main content</a>
+
+  <header class="site-header">
+    <nav class="navbar container" aria-label="Main navigation">
+      <a href="index.html" class="logo" aria-label="TriForge CCIRS home">
+        <span class="logo-mark" aria-hidden="true">C</span>
+        <span class="logo-text">CC<span>IRS</span></span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-menu"
+        aria-label="Toggle navigation menu">
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
+
+      <div class="nav-menu" id="nav-menu">
+        <ul class="nav-links">
+          <li><a href="student-dashboard.html" aria-current="page">My Complaints</a></li>
+          <li><a href="complaint.html">New Complaint</a></li>
+        </ul>
+        <div class="nav-actions">
+          <a href="index.html" class="btn btn-ghost">Log out</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main" class="dash-main">
+    <div class="container">
+      <div class="page-header">
+        <h1>My Complaints</h1>
+        <a class="btn btn-primary" href="complaint.html">New complaint</a>
+      </div>
+
+      <p class="alert alert-info">Sample data. Real complaints are loaded from the server in the next phase.</p>
+
+      <div class="table-wrap">
+        <table class="data-table">
+          <caption class="sr-only">Your submitted complaints, newest first</caption>
+          <thead>
+            <tr>
+              <th scope="col">ID</th>
+              <th scope="col">Category</th>
+              <th scope="col">Description</th>
+              <th scope="col">Date</th>
+              <th scope="col">Status</th>
+            </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <th scope="row" data-label="ID">#24</th>
+            <td data-label="Category">Infrastructure</td>
+            <td data-label="Description">Water cooler on the second floor of the library is not working.</td>
+            <td data-label="Date">25 Nov 2026</td>
+            <td data-label="Status"><span class="status status-pending">Pending</span></td>
+          </tr>
+          <tr>
+            <th scope="row" data-label="ID">#21</th>
+            <td data-label="Category">Transport</td>
+            <td data-label="Description">Morning bus from the city arrives 30 minutes late most days.</td>
+            <td data-label="Date">24 Nov 2026</td>
+            <td data-label="Status"><span class="status status-progress">In Progress</span></td>
+          </tr>
+          <tr>
+            <th scope="row" data-label="ID">#17</th>
+            <td data-label="Category">Academics</td>
+            <td data-label="Description">Projector in Room 4 does not turn on.</td>
+            <td data-label="Date">19 Nov 2026</td>
+            <td data-label="Status"><span class="status status-resolved">Resolved</span></td>
+          </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-bottom">
+      <p>&copy; <span id="year">2026</span> Team TriForge | CCIRS. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+
+</html>
