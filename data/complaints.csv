@@ -1,0 +1,401 @@
+complaint_text,category
+"The Wi-Fi is not working in the computer lab",IT_Network
+"The internet connection keeps disconnecting during lectures",IT_Network
+"Students cannot access the university website",IT_Network
+"The campus Wi-Fi password is not working",IT_Network
+"The network connection is very slow in the library",IT_Network
+"Computers in the lab cannot connect to the internet",IT_Network
+"The university portal is unavailable",IT_Network
+"The internet stops working every few minutes",IT_Network
+"Wi-Fi signals are very weak in the hostel",IT_Network
+"The computer lab network is completely down",IT_Network
+"Unable to connect to the student portal",IT_Network
+"The online attendance system is not loading",IT_Network
+"Internet access is unavailable in the classroom",IT_Network
+"The university email service is not working",IT_Network
+"Network cables are not providing connectivity",IT_Network
+"The library computers cannot access online resources",IT_Network
+"Wi-Fi disconnects whenever many students connect",IT_Network
+"The campus internet is extremely slow today",IT_Network
+"The university website shows a connection error",IT_Network
+"Students cannot log in to the online learning portal",IT_Network
+"The network printer is not connecting to computers",IT_Network
+"The hostel internet connection is unavailable",IT_Network
+"The computer lab has no internet access",IT_Network
+"Online examination software cannot connect to the server",IT_Network
+"The Wi-Fi network is not visible on student laptops",IT_Network
+"The campus network keeps dropping connections",IT_Network
+"Unable to access university online registration",IT_Network
+"The internet connection is unstable in the administration block",IT_Network
+"The student portal takes too long to load",IT_Network
+"The network connection fails after login",IT_Network
+"Wi-Fi is not available near the cafeteria",IT_Network
+"The university server cannot be reached",IT_Network
+"Internet access is blocked on the library computers",IT_Network
+"The computer lab network is experiencing frequent outages",IT_Network
+"Students are unable to access online course materials",IT_Network
+"The campus Wi-Fi authentication page is not opening",IT_Network
+"The internet connection is not working in the hostel study room",IT_Network
+"The university learning management system is inaccessible",IT_Network
+"Network connectivity is poor in the lecture hall",IT_Network
+"The computer lab cannot access shared network folders",IT_Network
+"The campus internet stops working during peak hours",IT_Network
+"Unable to connect to the university VPN",IT_Network
+"The online fee submission portal is not responding",IT_Network
+"Wi-Fi connection fails on mobile phones across campus",IT_Network
+"The university network is unavailable in the research lab",IT_Network
+"The internet connection keeps timing out",IT_Network
+"Students cannot download study material from the portal",IT_Network
+"The network switch in the lab appears to be offline",IT_Network
+"The campus Wi-Fi frequently asks students to reconnect",IT_Network
+"The university website is not accessible from campus internet",IT_Network
+"The electricity supply in the classroom is completely down",Electrical
+"The lights in the library are not working",Electrical
+"The electrical socket in the lab is damaged",Electrical
+"Frequent power outages are disrupting lectures",Electrical
+"The ceiling fan is not receiving electricity",Electrical
+"There are sparks coming from a classroom switch",Electrical
+"The hallway lights keep flickering",Electrical
+"The power supply in the computer lab is unstable",Electrical
+"Several electrical outlets in the library are not working",Electrical
+"The hostel room has no electricity",Electrical
+"The classroom lights suddenly stopped working",Electrical
+"The main electrical panel is making unusual noises",Electrical
+"The laboratory power sockets are not functioning",Electrical
+"Electricity keeps going off in the administration block",Electrical
+"The corridor lights are broken",Electrical
+"A damaged power cable is exposed near the classroom",Electrical
+"The lecture hall has no working ceiling lights",Electrical
+"The hostel common room has frequent power failures",Electrical
+"The classroom switchboard is damaged",Electrical
+"The emergency backup power is not working",Electrical
+"The electricity supply to the cafeteria is interrupted",Electrical
+"The laboratory circuit breaker keeps tripping",Electrical
+"The library fans have stopped working",Electrical
+"The outdoor campus lights do not turn on at night",Electrical
+"The electrical wiring in the classroom appears damaged",Electrical
+"The hostel corridor has no lighting",Electrical
+"The classroom projector power outlet is not working",Electrical
+"The power sockets in the faculty office are loose",Electrical
+"The campus generator is not supplying electricity",Electrical
+"The electrical fuse in the department keeps blowing",Electrical
+"The lights in the examination hall are flickering",Electrical
+"The computer lab loses power unexpectedly",Electrical
+"The staircase lighting is not functioning",Electrical
+"The laboratory has an unstable electrical supply",Electrical
+"The cafeteria electrical switch is broken",Electrical
+"The classroom power outlet is producing a burning smell",Electrical
+"The hostel electricity meter is not working",Electrical
+"The main building experiences repeated power cuts",Electrical
+"The outdoor security lights are not receiving power",Electrical
+"The library electrical sockets are damaged",Electrical
+"The department office has no electricity",Electrical
+"The lecture room fans are not working due to a power fault",Electrical
+"The campus transformer appears to have a power fault",Electrical
+"The emergency lights in the building are not working",Electrical
+"The electrical connection in the seminar room is faulty",Electrical
+"The classroom switch sparks when turned on",Electrical
+"The hostel building has an electrical supply problem",Electrical
+"The lab power distribution board is faulty",Electrical
+"The corridor electrical wiring needs repair",Electrical
+"The electricity supply in the sports hall is interrupted",Electrical
+"There is no water supply in the hostel",Plumbing_Water
+"Water is leaking from the hostel bathroom pipe",Plumbing_Water
+"The washroom tap keeps dripping",Plumbing_Water
+"The drinking water tap is not working",Plumbing_Water
+"The water pressure in the science block is very low",Plumbing_Water
+"A pipe has burst near the cafeteria",Plumbing_Water
+"The bathroom sink is clogged",Plumbing_Water
+"The hostel shower has stopped supplying water",Plumbing_Water
+"Water is overflowing from the washroom drain",Plumbing_Water
+"The water cooler is not receiving water",Plumbing_Water
+"There is a leak under the classroom washbasin",Plumbing_Water
+"The toilet flush is not working",Plumbing_Water
+"The main water supply to the department has stopped",Plumbing_Water
+"The hostel kitchen tap is leaking continuously",Plumbing_Water
+"Dirty water is coming from the drinking water tap",Plumbing_Water
+"The drainage pipe outside the library is blocked",Plumbing_Water
+"The bathroom faucet is broken",Plumbing_Water
+"Water is collecting around a leaking pipe",Plumbing_Water
+"The overhead water tank is not filling",Plumbing_Water
+"The water supply in the staff washroom is unavailable",Plumbing_Water
+"The washbasin drain is blocked",Plumbing_Water
+"The drinking fountain has very weak water flow",Plumbing_Water
+"A water pipe is leaking in the laboratory",Plumbing_Water
+"The hostel toilets have no running water",Plumbing_Water
+"The cafeteria sink is draining very slowly",Plumbing_Water
+"The bathroom shower pipe is damaged",Plumbing_Water
+"The water cooler tap is leaking",Plumbing_Water
+"The washroom drain is overflowing",Plumbing_Water
+"The campus water supply is interrupted every morning",Plumbing_Water
+"The toilet tank does not refill after flushing",Plumbing_Water
+"A pipe joint is leaking in the academic block",Plumbing_Water
+"The water pressure in the hostel is too low",Plumbing_Water
+"The outdoor tap near the sports ground is broken",Plumbing_Water
+"The water tank valve is not closing properly",Plumbing_Water
+"The washroom basin is completely clogged",Plumbing_Water
+"Water is leaking from the ceiling after pipe damage",Plumbing_Water
+"The drinking water dispenser is not connected to water",Plumbing_Water
+"The drainage system near the hostel is blocked",Plumbing_Water
+"The bathroom tap has no water flow",Plumbing_Water
+"The main supply pipe is making a loud leak",Plumbing_Water
+"The staff washroom flush is continuously running",Plumbing_Water
+"The laboratory sink is overflowing",Plumbing_Water
+"The water line to the cafeteria has stopped working",Plumbing_Water
+"The hostel water tank is overflowing",Plumbing_Water
+"The urinal drainage is blocked",Plumbing_Water
+"The pipe behind the washroom wall is leaking",Plumbing_Water
+"The campus drinking water point is dry",Plumbing_Water
+"The washroom tap handle is broken",Plumbing_Water
+"Rainwater is entering through a damaged drainage pipe",Plumbing_Water
+"The water supply valve near the library is faulty",Plumbing_Water
+"The classroom projector is not turning on",Classroom_Equipment
+"The classroom speaker is producing no sound",Classroom_Equipment
+"The lecture hall microphone is not working",Classroom_Equipment
+"The whiteboard projector displays a blurry image",Classroom_Equipment
+"The classroom smart board is unresponsive",Classroom_Equipment
+"The document camera is not displaying images",Classroom_Equipment
+"The lecture room amplifier has stopped working",Classroom_Equipment
+"The projector remote control is missing",Classroom_Equipment
+"The classroom display screen is damaged",Classroom_Equipment
+"The microphone in the seminar room produces static noise",Classroom_Equipment
+"The lecture hall speakers keep cutting out",Classroom_Equipment
+"The classroom projector shows no signal",Classroom_Equipment
+"The smart board touch function is not responding",Classroom_Equipment
+"The overhead projector lamp has burned out",Classroom_Equipment
+"The classroom audio system is not working",Classroom_Equipment
+"The HDMI connection at the teaching desk is faulty",Classroom_Equipment
+"The lecture room microphone battery does not charge",Classroom_Equipment
+"The interactive display cannot detect touch",Classroom_Equipment
+"The classroom computer does not connect to the projector",Classroom_Equipment
+"The projector image is too dim to see",Classroom_Equipment
+"The seminar room sound system has no output",Classroom_Equipment
+"The classroom presentation screen is stuck",Classroom_Equipment
+"The lecture hall podium control panel is faulty",Classroom_Equipment
+"The wireless microphone cannot connect to its receiver",Classroom_Equipment
+"The classroom speaker produces distorted sound",Classroom_Equipment
+"The projector keeps shutting down during lectures",Classroom_Equipment
+"The smart classroom display will not start",Classroom_Equipment
+"The document camera cable is damaged",Classroom_Equipment
+"The lecture room remote cannot control the projector",Classroom_Equipment
+"The classroom audio mixer is malfunctioning",Classroom_Equipment
+"The projector image is not aligned with the screen",Classroom_Equipment
+"The interactive board software is frozen",Classroom_Equipment
+"The seminar room display has vertical lines",Classroom_Equipment
+"The classroom microphone has a broken connector",Classroom_Equipment
+"The speaker system in the lecture theatre is too quiet",Classroom_Equipment
+"The projector lens is producing a blurry image",Classroom_Equipment
+"The classroom control panel buttons are not responding",Classroom_Equipment
+"The presentation screen does not roll down",Classroom_Equipment
+"The lecture hall video display has no picture",Classroom_Equipment
+"The classroom sound system has a persistent buzzing noise",Classroom_Equipment
+"The projector input port is damaged",Classroom_Equipment
+"The digital podium display is not working",Classroom_Equipment
+"The classroom amplifier overheats and switches off",Classroom_Equipment
+"The smart board calibration is incorrect",Classroom_Equipment
+"The lecture room speaker cable is disconnected",Classroom_Equipment
+"The projector lamp warning keeps appearing",Classroom_Equipment
+"The seminar room video conferencing display is not working",Classroom_Equipment
+"The classroom screen has a large tear",Classroom_Equipment
+"The lecture hall microphone stand is broken",Classroom_Equipment
+"The projector ceiling mount is loose",Classroom_Equipment
+"The classroom chairs are broken",Facilities_Infrastructure
+"The classroom window is damaged",Facilities_Infrastructure
+"The classroom door does not close properly",Facilities_Infrastructure
+"A desk in the lecture hall is unstable",Facilities_Infrastructure
+"The library bookshelf is damaged",Facilities_Infrastructure
+"The hostel room door lock is broken",Facilities_Infrastructure
+"The ceiling has a visible crack",Facilities_Infrastructure
+"The staircase handrail is loose",Facilities_Infrastructure
+"The classroom floor tiles are broken",Facilities_Infrastructure
+"The laboratory workbench is damaged",Facilities_Infrastructure
+"The library study tables are unstable",Facilities_Infrastructure
+"The hostel cupboard door has come off",Facilities_Infrastructure
+"The classroom door handle is missing",Facilities_Infrastructure
+"The roof is leaking after rainfall",Facilities_Infrastructure
+"The corridor wall has damaged plaster",Facilities_Infrastructure
+"The lecture hall seats are broken",Facilities_Infrastructure
+"The window frame in the office is loose",Facilities_Infrastructure
+"The classroom ceiling has a damaged panel",Facilities_Infrastructure
+"The department entrance door is jammed",Facilities_Infrastructure
+"The hostel room furniture needs repair",Facilities_Infrastructure
+"The boundary wall has a large crack",Facilities_Infrastructure
+"The library door hinge is broken",Facilities_Infrastructure
+"The floor near the entrance is uneven",Facilities_Infrastructure
+"The classroom desks have sharp broken edges",Facilities_Infrastructure
+"The washroom door is damaged",Facilities_Infrastructure
+"The laboratory storage cabinet cannot close",Facilities_Infrastructure
+"The ramp surface is cracked",Facilities_Infrastructure
+"The corridor ceiling panel is hanging loose",Facilities_Infrastructure
+"The hostel window glass is broken",Facilities_Infrastructure
+"The lecture room door frame is damaged",Facilities_Infrastructure
+"The office cabinet drawers are stuck",Facilities_Infrastructure
+"The classroom floor has a loose tile",Facilities_Infrastructure
+"The roof insulation is falling apart",Facilities_Infrastructure
+"The campus footpath is damaged",Facilities_Infrastructure
+"The library chairs are missing screws",Facilities_Infrastructure
+"The department staircase steps are cracked",Facilities_Infrastructure
+"The classroom window cannot be opened",Facilities_Infrastructure
+"The hostel bed frame is broken",Facilities_Infrastructure
+"The seminar room wall needs plaster repair",Facilities_Infrastructure
+"The entrance gate hinge is damaged",Facilities_Infrastructure
+"The corridor floor is damaged near the stairs",Facilities_Infrastructure
+"The laboratory cabinet shelves are loose",Facilities_Infrastructure
+"The lecture hall ceiling has water damage",Facilities_Infrastructure
+"The classroom door is stuck in its frame",Facilities_Infrastructure
+"The office window latch is broken",Facilities_Infrastructure
+"The campus pavement has a deep crack",Facilities_Infrastructure
+"The library furniture is damaged",Facilities_Infrastructure
+"The hostel bathroom door frame is rotten",Facilities_Infrastructure
+"The classroom board frame is loose",Facilities_Infrastructure
+"The handrail near the lecture hall is unstable",Facilities_Infrastructure
+"The washroom is very dirty and needs cleaning",Cleanliness_Sanitation
+"Trash bins in the cafeteria are overflowing",Cleanliness_Sanitation
+"The classroom floor has not been cleaned",Cleanliness_Sanitation
+"There is litter around the library entrance",Cleanliness_Sanitation
+"The hostel bathroom smells unpleasant",Cleanliness_Sanitation
+"The campus garden has piles of rubbish",Cleanliness_Sanitation
+"The cafeteria tables are dirty after meals",Cleanliness_Sanitation
+"The corridor has not been swept for days",Cleanliness_Sanitation
+"The washroom mirrors are covered in stains",Cleanliness_Sanitation
+"Garbage has been left beside the hostel",Cleanliness_Sanitation
+"The lecture hall is full of paper waste",Cleanliness_Sanitation
+"The drinking water area is not being cleaned",Cleanliness_Sanitation
+"The classroom windows are covered in dust",Cleanliness_Sanitation
+"The public bins have not been emptied",Cleanliness_Sanitation
+"The cafeteria floor is sticky and dirty",Cleanliness_Sanitation
+"The hostel common room needs cleaning",Cleanliness_Sanitation
+"The washroom has an unpleasant sewage smell",Cleanliness_Sanitation
+"The campus walkway is covered with litter",Cleanliness_Sanitation
+"The library reading area has dusty tables",Cleanliness_Sanitation
+"The staircase has accumulated dirt",Cleanliness_Sanitation
+"The sports ground has rubbish scattered around",Cleanliness_Sanitation
+"The classroom whiteboard area is dusty",Cleanliness_Sanitation
+"The waste collection point is overflowing",Cleanliness_Sanitation
+"The hostel kitchen floor is unhygienic",Cleanliness_Sanitation
+"The washroom sanitary bins need emptying",Cleanliness_Sanitation
+"The canteen food area has not been sanitized",Cleanliness_Sanitation
+"The corridor corners are full of cobwebs",Cleanliness_Sanitation
+"The campus entrance has accumulated garbage",Cleanliness_Sanitation
+"The laboratory floor is dirty after practical work",Cleanliness_Sanitation
+"The library carpets need vacuum cleaning",Cleanliness_Sanitation
+"The cafeteria waste is attracting flies",Cleanliness_Sanitation
+"The hostel washroom has not been disinfected",Cleanliness_Sanitation
+"The classroom desks are covered in dust",Cleanliness_Sanitation
+"The outdoor seating area is littered",Cleanliness_Sanitation
+"The trash near the academic block has not been collected",Cleanliness_Sanitation
+"The handwashing area is dirty",Cleanliness_Sanitation
+"The lecture theatre floor needs mopping",Cleanliness_Sanitation
+"The campus drainage area is full of rubbish",Cleanliness_Sanitation
+"The staff washroom requires urgent cleaning",Cleanliness_Sanitation
+"The hostel staircase has garbage on it",Cleanliness_Sanitation
+"The cafeteria bins smell because they are not emptied",Cleanliness_Sanitation
+"The library shelves are dusty",Cleanliness_Sanitation
+"The classroom floor has mud marks",Cleanliness_Sanitation
+"The campus garden bins are overflowing",Cleanliness_Sanitation
+"The washroom walls have not been scrubbed",Cleanliness_Sanitation
+"The student common area is untidy",Cleanliness_Sanitation
+"The food court tables have leftover food on them",Cleanliness_Sanitation
+"The corridor has a strong garbage smell",Cleanliness_Sanitation
+"The outdoor dustbins are damaged and overflowing",Cleanliness_Sanitation
+"The university bus waiting area is littered",Cleanliness_Sanitation
+"Someone has reported a security concern near the campus gate",Safety_Security
+"An unauthorized person entered the academic building",Safety_Security
+"The boundary wall has a gap that allows unauthorized entry",Safety_Security
+"A campus streetlight is out near the main entrance, creating a safety concern",Safety_Security
+"A fire extinguisher is missing from the laboratory",Safety_Security
+"The emergency exit is blocked by stored furniture",Safety_Security
+"A suspicious package has been left near the library",Safety_Security
+"The security gate is being left unlocked at night",Safety_Security
+"An unknown person is following students near the hostel",Safety_Security
+"The emergency alarm is not functioning",Safety_Security
+"The fire exit door is locked during class hours",Safety_Security
+"A damaged railing creates a fall hazard on the stairs",Safety_Security
+"Someone has reported a missing security guard at the entrance",Safety_Security
+"The campus CCTV camera near the parking area is not working",Safety_Security
+"A loose electrical cable is creating a safety hazard in the hallway",Safety_Security
+"The first aid box is missing from the sports facility",Safety_Security
+"The laboratory safety sign has fallen down",Safety_Security
+"The emergency assembly point is obstructed",Safety_Security
+"An unauthorized vehicle entered the restricted campus area",Safety_Security
+"The hostel entrance is not being monitored",Safety_Security
+"A broken manhole cover is creating a danger on the walkway",Safety_Security
+"The fire alarm in the academic block is not responding",Safety_Security
+"The campus security barrier is damaged",Safety_Security
+"Students feel unsafe because the rear gate is left open",Safety_Security
+"The emergency staircase is being used for storage",Safety_Security
+"A fire extinguisher has an expired inspection label",Safety_Security
+"The laboratory chemical storage area is not secured",Safety_Security
+"The campus pedestrian crossing has no safety markings",Safety_Security
+"A damaged handrail poses a risk near the upper floor",Safety_Security
+"The security office phone is not working",Safety_Security
+"The emergency exit sign is missing from the corridor",Safety_Security
+"The parking area has an unsafe broken barrier",Safety_Security
+"A stranger is entering the hostel without permission",Safety_Security
+"The campus perimeter fence is damaged",Safety_Security
+"The first aid supplies are missing from the department",Safety_Security
+"The fire evacuation route is blocked",Safety_Security
+"The security checkpoint is unattended during the evening",Safety_Security
+"The sports ground fence has a dangerous sharp edge",Safety_Security
+"The emergency lighting in the stairwell is not working",Safety_Security
+"A damaged floor cover is creating a trip hazard",Safety_Security
+"The campus gate lock is not securing properly",Safety_Security
+"The laboratory eyewash station is unavailable",Safety_Security
+"The hostel fire safety equipment needs inspection",Safety_Security
+"The security camera at the hostel entrance is offline",Safety_Security
+"The emergency contact information is missing from the notice board",Safety_Security
+"A fallen tree branch is blocking the emergency access route",Safety_Security
+"The campus parking area has inadequate security monitoring",Safety_Security
+"The building evacuation map is missing",Safety_Security
+"The security guard is not checking visitor identification",Safety_Security
+"The emergency exit handle is broken",Safety_Security
+"The university bus is not following its scheduled route",Transport
+"The campus shuttle arrived thirty minutes late",Transport
+"The university bus did not stop at the designated pickup point",Transport
+"The bus route does not cover the new student housing area",Transport
+"The university transport timetable is outdated",Transport
+"The campus bus is overcrowded during morning hours",Transport
+"The driver skipped the main campus stop",Transport
+"The university bus service was cancelled without notice",Transport
+"The shuttle service does not run after evening classes",Transport
+"The bus is frequently arriving late at the hostel stop",Transport
+"The university transport office has not published route timings",Transport
+"The campus bus has missed several scheduled trips",Transport
+"The bus stop near the library has no route information",Transport
+"The university shuttle is not available on Fridays",Transport
+"The driver is taking an unauthorized route",Transport
+"The bus service does not match the published timetable",Transport
+"The university bus leaves before the scheduled departure time",Transport
+"The campus transport route needs an additional hostel stop",Transport
+"The shuttle does not arrive at the sports complex stop",Transport
+"The bus tracking information is not being updated",Transport
+"The university transport service is unavailable during exams",Transport
+"The morning bus is consistently overcrowded",Transport
+"The campus bus is not stopping at the engineering block",Transport
+"The driver is not following the approved pickup schedule",Transport
+"The evening shuttle is not available for students",Transport
+"The university bus route has changed without informing students",Transport
+"The transport office is not responding to route complaints",Transport
+"The bus stop sign near the main gate is missing",Transport
+"The campus shuttle has been delayed repeatedly this week",Transport
+"The university bus does not arrive at the advertised time",Transport
+"The transport service is insufficient for the number of students",Transport
+"The bus route excludes the medical college stop",Transport
+"The campus shuttle is not operating during lunch hours",Transport
+"The university bus is leaving students behind at the stop",Transport
+"The driver is not following the designated campus route",Transport
+"The student transport pass is not being accepted on the bus",Transport
+"The bus schedule conflicts with the evening lecture timings",Transport
+"The university shuttle service has stopped temporarily",Transport
+"The bus does not reach the hostel before curfew",Transport
+"The campus transport route needs a stop near the library",Transport
+"The morning university bus is often full before reaching campus",Transport
+"The bus service is not available from the northern route",Transport
+"The university shuttle is taking too long between stops",Transport
+"The campus bus timetable at the main stop is incorrect",Transport
+"The transport office has not announced holiday bus timings",Transport
+"The university bus is not making its scheduled return trip",Transport
+"The shuttle service does not cover the new academic block",Transport
+"The campus bus is arriving after the first lecture begins",Transport
+"The university transport route is missing the sports ground stop",Transport
+"The bus pickup location has been moved without notification",Transport
