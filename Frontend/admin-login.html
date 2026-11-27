@@ -67,13 +67,15 @@
         <form id="login-form" data-role="admin" novalidate>
           <div class="field">
             <label for="email">Email</label>
-            <input id="email" name="email" type="email" autocomplete="email" required aria-describedby="email-error">
+            <input id="email" name="email" type="email" autocomplete="email" required
+              maxlength="254" aria-describedby="email-error">
             <p class="field-error" id="email-error" hidden></p>
           </div>
           <div class="field">
             <label for="password">Password</label>
             <div class="input-row">
-              <input id="password" name="password" type="password" autocomplete="current-password" required aria-describedby="password-error">
+              <input id="password" name="password" type="password" autocomplete="current-password" required
+                minlength="8" maxlength="15" aria-describedby="password-error">
               <button class="btn btn-secondary btn-toggle" type="button"
                 data-toggle-password="password" aria-controls="password">Show</button>
             </div>
